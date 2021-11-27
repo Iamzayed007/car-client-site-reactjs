@@ -1,0 +1,47 @@
+.top-facilities{
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:black;
+    
+}
+.facilities-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.top-facilities:hover{
+    
+   color:gold;
+}
+.text-facilities:hover{   
+    
+   color:gold;
+}
+
+.facilities-content h3{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.facilities-content p{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-left: 50px;
+}
+.facilities-content h3:hover{
+   color: gold;
+}
+.icon{
+    color: lightgreen;
+    font-size: 40px;
+
+}
+.images:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(0 0 0 / 20%);
+    transform: scale(1.05);
+    background-color: rgb(17, 15, 10);
+    color: orange;
+    border-radius: 20px;
+    height: 150px;
+}

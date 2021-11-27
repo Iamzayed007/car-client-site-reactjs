@@ -1,0 +1,26 @@
+
+/* .top-banner img{
+  height: 100vh;
+  width: 100%;
+    
+} */
+.top-banner {
+    background-image: url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 187px;
+    text-shadow: 10px 10px 14px #7e7373;
+    margin-bottom: 20px ;
+    
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.top-banner h1{
+    font-size: 50px;
+}
+.top-banner h5{
+    font-size: 30px;
+}

@@ -1,0 +1,13 @@
+.form-class{
+    background-color: rgb(49, 41, 38);
+    width: 300px;
+    padding-bottom: 20px;
+   
+}
+.form-class input{
+    width: 90%;
+    margin-top: 35px;
+    height: 40px;
+    
+
+}
