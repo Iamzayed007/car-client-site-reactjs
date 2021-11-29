@@ -16,7 +16,7 @@ const AddNewCar = () => {
     } = useForm();
     const onSubmit = data => {
         
-        fetch('https://powerful-bastion-59588.herokuapp.com/cars', {
+        fetch('https://powerful-beach-17355.herokuapp.com/cars', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -11,7 +11,7 @@ const MyOrders = () => {
     
     useEffect(() => {
         //  setLoading(true)
-        fetch('https://powerful-bastion-59588.herokuapp.com/purchase')
+        fetch('https://powerful-beach-17355.herokuapp.com/purchase')
             .then(res => res.json())
             .then(data => {
               
@@ -29,7 +29,7 @@ const MyOrders = () => {
 
         const proceed = window.confirm('are you sure, you want to delete?');
         if(proceed){
-            const url = `https://powerful-bastion-59588.herokuapp.com/purchase/${id}`
+            const url = `https://powerful-beach-17355.herokuapp.com/purchase/${id}`
             fetch (url,{
                 method:'DELETE',
                

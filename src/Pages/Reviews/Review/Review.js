@@ -70,7 +70,7 @@ const Review = () => {
        
             
             console.log(data)
-            fetch('https://powerful-bastion-59588.herokuapp.com/review', {
+            fetch('https://powerful-beach-17355.herokuapp.com/review', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

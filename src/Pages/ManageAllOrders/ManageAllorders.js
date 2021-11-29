@@ -13,7 +13,7 @@ const ManageAllorders = () => {
 
     useEffect(() => {
        
-        fetch('https://powerful-bastion-59588.herokuapp.com/purchase')
+        fetch('https://powerful-beach-17355.herokuapp.com/purchase')
             .then(res => res.json())
             .then(data => {
                
@@ -37,7 +37,7 @@ const ManageAllorders = () => {
                 status: orderStatus
             }
 
-            fetch(`https://powerful-bastion-59588.herokuapp.com/purchase/${id}`, {
+            fetch(`https://powerful-beach-17355.herokuapp.com/purchase/${id}`, {
                 method: 'PATCH',
                 headers: { 'content-Type': 'application/json' },
                 body: JSON.stringify(orderData)
@@ -61,7 +61,7 @@ const ManageAllorders = () => {
 
         const proceed = window.confirm('are you sure, you want to delete?');
         if(proceed){
-            const url = `https://powerful-bastion-59588.herokuapp.com/purchase/${id}`
+            const url = `https://powerful-beach-17355.herokuapp.com/purchase/${id}`
             fetch (url,{
                 method:'DELETE',
                

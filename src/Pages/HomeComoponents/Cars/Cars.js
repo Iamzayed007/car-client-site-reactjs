@@ -9,7 +9,7 @@ const Cars = () => {
     
 
     useEffect(() => {
-        fetch('https://powerful-bastion-59588.herokuapp.com/cars')
+        fetch('https://powerful-beach-17355.herokuapp.com/cars')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])

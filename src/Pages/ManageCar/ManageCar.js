@@ -11,7 +11,7 @@ const ManageCar = () => {
     
     useEffect(() => {
         //  setLoading(true)
-        fetch('https://powerful-bastion-59588.herokuapp.com/cars')
+        fetch('https://powerful-beach-17355.herokuapp.com/cars')
             .then(res => res.json())
             .then(data => {
               
@@ -27,7 +27,7 @@ const ManageCar = () => {
 
         const proceed = window.confirm('are you sure, you want to delete?');
         if(proceed){
-            const url = `https://powerful-bastion-59588.herokuapp.com/cars/${id}`
+            const url = `https://powerful-beach-17355.herokuapp.com/cars/${id}`
             fetch (url,{
                 method:'DELETE',
                

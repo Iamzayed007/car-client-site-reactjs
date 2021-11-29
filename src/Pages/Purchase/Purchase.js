@@ -17,7 +17,7 @@ const Purchase = () => {
     // const [status, set]
     useEffect(() => {
         // addToDb(aId)
-        const url = `https://powerful-bastion-59588.herokuapp.com/cars/${id}`
+        const url = `https://powerful-beach-17355.herokuapp.com/cars/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => {
@@ -41,7 +41,7 @@ const Purchase = () => {
         data.purchase = car;
         
         console.log(data)
-        fetch('https://powerful-bastion-59588.herokuapp.com/purchase', {
+        fetch('https://powerful-beach-17355.herokuapp.com/purchase', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
